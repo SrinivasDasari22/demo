@@ -18,5 +18,10 @@ public class DemoApplication {
 		return "Greetings from Spring Boot!--  Hey DS 22";
 	}
 
+	@GetMapping("/")
+	public String index1() {
+		return "Using Gradle for it";
+	}
+
 
 }
